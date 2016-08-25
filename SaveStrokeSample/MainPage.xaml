@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="SaveStrokeSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SaveStrokeSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center">
+            <InkCanvas Name="myCanvas" Width="800" Height="800"/>
+            <Button Name="myBtn" Click="myBtn_Click">Click Me to Save</Button>
+            <Button Name="myBtn2" Click="myBtn2_Click">Click Me to Navigate</Button>
+        </StackPanel>
+    </Grid>
+</Page>
